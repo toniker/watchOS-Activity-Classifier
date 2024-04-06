@@ -1,0 +1,15 @@
+{
+  "Outputs" : {
+    "Identity" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "Inputs" : {
+    "gru_input" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "TrainingInputs" : {
+
+  }
+}

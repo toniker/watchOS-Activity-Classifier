@@ -11,7 +11,7 @@ import SwiftUI
 struct Activity_ClassifierApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ActivityClassificationView()
         }
     }
 }

@@ -8,21 +8,76 @@
 
 /* Begin PBXBuildFile section */
 		AE2698E82BC00FD3000613B6 /* Activity_ClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2698E72BC00FD3000613B6 /* Activity_ClassifierApp.swift */; };
-		AE2698EA2BC00FD3000613B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2698E92BC00FD3000613B6 /* ContentView.swift */; };
+		AE2698EA2BC00FD3000613B6 /* ActivityClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2698E92BC00FD3000613B6 /* ActivityClassificationView.swift */; };
 		AE2698EC2BC00FD4000613B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2698EB2BC00FD4000613B6 /* Assets.xcassets */; };
 		AE2698EF2BC00FD4000613B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2698EE2BC00FD4000613B6 /* Preview Assets.xcassets */; };
+		AE2698F62BC00FE8000613B6 /* ActivityClassificationModel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = AE2698F52BC00FE8000613B6 /* ActivityClassificationModel.mlpackage */; };
+		AE2698F82BC01011000613B6 /* ActivityClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2698F72BC01011000613B6 /* ActivityClassifier.swift */; };
+		AE2698FA2BC01242000613B6 /* MotionDataCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2698F92BC01242000613B6 /* MotionDataCollector.swift */; };
+		AE2698FC2BC0206E000613B6 /* MLMultiArray+from.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2698FB2BC0206E000613B6 /* MLMultiArray+from.swift */; };
+		AE2698FE2BC02ABF000613B6 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2698FD2BC02ABF000613B6 /* ChartView.swift */; };
+		AE2699062BC04A4F000613B6 /* Activity_Classifier_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2699052BC04A4F000613B6 /* Activity_Classifier_WatchApp.swift */; };
+		AE2699082BC04A4F000613B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2699072BC04A4F000613B6 /* ContentView.swift */; };
+		AE26990A2BC04A51000613B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2699092BC04A51000613B6 /* Assets.xcassets */; };
+		AE26990D2BC04A51000613B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE26990C2BC04A51000613B6 /* Preview Assets.xcassets */; };
+		AE2699102BC04A51000613B6 /* Activity Classifier Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AE2699032BC04A4F000613B6 /* Activity Classifier Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AE2699152BC04A6B000613B6 /* ActivityClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2698F72BC01011000613B6 /* ActivityClassifier.swift */; };
+		AE2699162BC04A71000613B6 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2698FD2BC02ABF000613B6 /* ChartView.swift */; };
+		AE2699172BC04A77000613B6 /* MotionDataCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2698F92BC01242000613B6 /* MotionDataCollector.swift */; };
+		AE2699182BC04AB4000613B6 /* ActivityClassificationModel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = AE2698F52BC00FE8000613B6 /* ActivityClassificationModel.mlpackage */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE26990E2BC04A51000613B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE2698DC2BC00FD3000613B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE2699022BC04A4F000613B6;
+			remoteInfo = "Activity Classifier Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE2699142BC04A51000613B6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AE2699102BC04A51000613B6 /* Activity Classifier Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AE2698E42BC00FD3000613B6 /* Activity Classifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Activity Classifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2698E72BC00FD3000613B6 /* Activity_ClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity_ClassifierApp.swift; sourceTree = "<group>"; };
-		AE2698E92BC00FD3000613B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE2698E92BC00FD3000613B6 /* ActivityClassificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityClassificationView.swift; sourceTree = "<group>"; };
 		AE2698EB2BC00FD4000613B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE2698EE2BC00FD4000613B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE2698F52BC00FE8000613B6 /* ActivityClassificationModel.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = ActivityClassificationModel.mlpackage; sourceTree = "<group>"; };
+		AE2698F72BC01011000613B6 /* ActivityClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityClassifier.swift; sourceTree = "<group>"; };
+		AE2698F92BC01242000613B6 /* MotionDataCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDataCollector.swift; sourceTree = "<group>"; };
+		AE2698FB2BC0206E000613B6 /* MLMultiArray+from.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+from.swift"; sourceTree = "<group>"; };
+		AE2698FD2BC02ABF000613B6 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		AE2699032BC04A4F000613B6 /* Activity Classifier Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Activity Classifier Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2699052BC04A4F000613B6 /* Activity_Classifier_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity_Classifier_WatchApp.swift; sourceTree = "<group>"; };
+		AE2699072BC04A4F000613B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE2699092BC04A51000613B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE26990C2BC04A51000613B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AE2698E12BC00FD3000613B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2699002BC04A4F000613B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				AE2698E62BC00FD3000613B6 /* Activity Classifier */,
+				AE2699042BC04A4F000613B6 /* Activity Classifier Watch Watch App */,
 				AE2698E52BC00FD3000613B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				AE2698E42BC00FD3000613B6 /* Activity Classifier.app */,
+				AE2699032BC04A4F000613B6 /* Activity Classifier Watch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +108,13 @@
 		AE2698E62BC00FD3000613B6 /* Activity Classifier */ = {
 			isa = PBXGroup;
 			children = (
+				AE2698F52BC00FE8000613B6 /* ActivityClassificationModel.mlpackage */,
 				AE2698E72BC00FD3000613B6 /* Activity_ClassifierApp.swift */,
-				AE2698E92BC00FD3000613B6 /* ContentView.swift */,
+				AE2698F72BC01011000613B6 /* ActivityClassifier.swift */,
+				AE2698FD2BC02ABF000613B6 /* ChartView.swift */,
+				AE2698FB2BC0206E000613B6 /* MLMultiArray+from.swift */,
+				AE2698F92BC01242000613B6 /* MotionDataCollector.swift */,
+				AE2698E92BC00FD3000613B6 /* ActivityClassificationView.swift */,
 				AE2698EB2BC00FD4000613B6 /* Assets.xcassets */,
 				AE2698ED2BC00FD4000613B6 /* Preview Content */,
 			);
@@ -67,6 +129,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AE2699042BC04A4F000613B6 /* Activity Classifier Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				AE2699052BC04A4F000613B6 /* Activity_Classifier_WatchApp.swift */,
+				AE2699072BC04A4F000613B6 /* ContentView.swift */,
+				AE2699092BC04A51000613B6 /* Assets.xcassets */,
+				AE26990B2BC04A51000613B6 /* Preview Content */,
+			);
+			path = "Activity Classifier Watch Watch App";
+			sourceTree = "<group>";
+		};
+		AE26990B2BC04A51000613B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE26990C2BC04A51000613B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,14 +158,33 @@
 				AE2698E02BC00FD3000613B6 /* Sources */,
 				AE2698E12BC00FD3000613B6 /* Frameworks */,
 				AE2698E22BC00FD3000613B6 /* Resources */,
+				AE2699142BC04A51000613B6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE26990F2BC04A51000613B6 /* PBXTargetDependency */,
+			);
+			name = "Activity Classifier";
+			productName = "Activity Classifier";
+			productReference = AE2698E42BC00FD3000613B6 /* Activity Classifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE2699022BC04A4F000613B6 /* Activity Classifier Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE2699112BC04A51000613B6 /* Build configuration list for PBXNativeTarget "Activity Classifier Watch Watch App" */;
+			buildPhases = (
+				AE2698FF2BC04A4F000613B6 /* Sources */,
+				AE2699002BC04A4F000613B6 /* Frameworks */,
+				AE2699012BC04A4F000613B6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Activity Classifier";
-			productName = "Activity Classifier";
-			productReference = AE2698E42BC00FD3000613B6 /* Activity Classifier.app */;
+			name = "Activity Classifier Watch Watch App";
+			productName = "Activity Classifier Watch Watch App";
+			productReference = AE2699032BC04A4F000613B6 /* Activity Classifier Watch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,6 +198,9 @@
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					AE2698E32BC00FD3000613B6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AE2699022BC04A4F000613B6 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -116,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				AE2698E32BC00FD3000613B6 /* Activity Classifier */,
+				AE2699022BC04A4F000613B6 /* Activity Classifier Watch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +234,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE2699012BC04A4F000613B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE26990D2BC04A51000613B6 /* Preview Assets.xcassets in Resources */,
+				AE26990A2BC04A51000613B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +250,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE2698EA2BC00FD3000613B6 /* ContentView.swift in Sources */,
+				AE2698FE2BC02ABF000613B6 /* ChartView.swift in Sources */,
+				AE2698FA2BC01242000613B6 /* MotionDataCollector.swift in Sources */,
+				AE2698EA2BC00FD3000613B6 /* ActivityClassificationView.swift in Sources */,
+				AE2698F82BC01011000613B6 /* ActivityClassifier.swift in Sources */,
+				AE2698F62BC00FE8000613B6 /* ActivityClassificationModel.mlpackage in Sources */,
+				AE2698FC2BC0206E000613B6 /* MLMultiArray+from.swift in Sources */,
 				AE2698E82BC00FD3000613B6 /* Activity_ClassifierApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE2698FF2BC04A4F000613B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2699172BC04A77000613B6 /* MotionDataCollector.swift in Sources */,
+				AE2699152BC04A6B000613B6 /* ActivityClassifier.swift in Sources */,
+				AE2699082BC04A4F000613B6 /* ContentView.swift in Sources */,
+				AE2699062BC04A4F000613B6 /* Activity_Classifier_WatchApp.swift in Sources */,
+				AE2699182BC04AB4000613B6 /* ActivityClassificationModel.mlpackage in Sources */,
+				AE2699162BC04A71000613B6 /* ChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE26990F2BC04A51000613B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE2699022BC04A4F000613B6 /* Activity Classifier Watch Watch App */;
+			targetProxy = AE26990E2BC04A51000613B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AE2698F02BC00FD4000613B6 /* Debug */ = {
@@ -267,6 +406,7 @@
 		AE2698F32BC00FD4000613B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +436,7 @@
 		AE2698F42BC00FD4000613B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +463,66 @@
 			};
 			name = Release;
 		};
+		AE2699122BC04A51000613B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Activity Classifier Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = B2X4UWPQLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Activity Classifier Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.keremidis.Activity-Classifier";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keremidis.Activity-Classifier.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		AE2699132BC04A51000613B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Activity Classifier Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = B2X4UWPQLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Activity Classifier Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.keremidis.Activity-Classifier";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keremidis.Activity-Classifier.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +540,15 @@
 			buildConfigurations = (
 				AE2698F32BC00FD4000613B6 /* Debug */,
 				AE2698F42BC00FD4000613B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE2699112BC04A51000613B6 /* Build configuration list for PBXNativeTarget "Activity Classifier Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2699122BC04A51000613B6 /* Debug */,
+				AE2699132BC04A51000613B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
