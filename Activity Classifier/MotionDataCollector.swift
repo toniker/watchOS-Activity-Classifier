@@ -1,7 +1,7 @@
 import Foundation
 import CoreMotion
 
-class MotionDataCollector {
+struct MotionDataCollector {
     private let motion = CMMotionManager()
     private var timer: Timer? = nil
 
@@ -16,7 +16,7 @@ class MotionDataCollector {
 
             // Configure a timer to fetch the data.
             self.timer = Timer(fire: Date(), interval: (1.0/25.0),
-                               repeats: true, block: { (timer) in
+                               repeats: true, block: { [self] (timer) in
                 // Get the accelerometer data.
                 if let data = self.motion.accelerometerData {
                     let x = data.acceleration.x
@@ -33,7 +33,8 @@ class MotionDataCollector {
         }
     }
 
-    deinit {
+    func stop() {
+        self.motion.stopAccelerometerUpdates()
         timer?.invalidate()
     }
 }

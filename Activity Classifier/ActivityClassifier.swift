@@ -81,7 +81,7 @@ class ActivityClassifier: ObservableObject {
 
     public func stop() {
         self.detectingActivity = false
-        self.motionManager = nil
+        self.motionManager?.stop()
     }
 
     enum Activity: Int, CustomDebugStringConvertible {
